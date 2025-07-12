@@ -1,0 +1,15 @@
+[project]
+name = "notes-app"
+version = "0.1.0"
+description = "App for notes."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.0",
+    "pytest>=8.0.0",
+    "ruff>=0.12.2",
+    "yfinance>=0.2.65",
+]
+
+[project.scripts]
+notes-app = "app:main"
